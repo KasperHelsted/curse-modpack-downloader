@@ -50,7 +50,7 @@ async function getLatestProjectFileUrl(project) {
                 console.error(`ERROR: Project ${project} not found.`);
                 break;
             case "4xx":
-                console.error("4xx Error, dunno")
+                console.error(`4xx Error, dunno, ${url}`)
                 break;
             case "5xx":
                 console.error("Server side error");
